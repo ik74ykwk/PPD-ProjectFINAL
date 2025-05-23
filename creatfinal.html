@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="creatfinal.css">
+</head>
+
+<body>
+    <div class="title-container">
+        <h1 class="site-title">SafeRoads</h1>
+    </div>
+
+    <div class="container">
+        <form class="content" action="#" method="POST">
+            <h2 class="create-account-title">Create Account</h2>
+            <label for="first-name">First Name</label>
+            <input id="first-name" name="first-name" placeholder="Enter your first name" type="text" required />
+
+            <label for="last-name">Last Name</label>
+            <input id="last-name" name="last-name" placeholder="Enter your last name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" placeholder="Enter your email" type="email" required />
+
+            <label for="password">Password</label>
+            <input id="password" name="password" placeholder="Enter your password" type="password" required />
+
+            <button type="submit">Create Account</button>
+
+            <button id="google-sign" type="button">
+                <img src="search.png"
+                    alt="Google Icon">
+                Sign up with Google
+            </button>
+        </form>
+
+        <div id="image-container">
+            <img src="https://i.postimg.cc/2SKN2njK/Capture-create.png" alt="New Image" class="image">
+        </div>
+
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+    <script src="signup.js"></script>
+</body>
+
+</html>
