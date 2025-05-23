@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="loginupdate.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+</head>
+
+<body>
+    <h1 class="site-title">SafeRoads</h1>
+
+    <div class="container">
+        <form class="content">
+            <h2 class="form-title">Welcome Back!</h2>
+
+            <label for="email">Email</label>
+            <input id="email" placeholder="Enter your email" type="email" required />
+
+            <label for="password">Password</label>
+            <input id="password" placeholder="Enter your password" type="password" required />
+
+            <button type="submit">Log in</button>
+
+            <button id="google-sign" type="button">
+                <img src="search.png" alt="Google Icon" /> Sign up with Google
+            </button>
+        </form>
+        <div id="image-container">
+            <img src="https://i.postimg.cc/v8vYY7pQ/Capture.png" alt="Left side image" class="image" />
+        </div>
+    </div>
+    <script src="loginupdate.js"></script>
+</body>
+
+</html>
