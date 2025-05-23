@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1.site-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #007bff; 
+    margin: 0;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.content {
+    position: relative;
+    top: 100PX;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+
+.form-title {
+    text-align: left;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#google-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+}
+
+#google-sign img {
+    width: 20px;
+    height: 20px;
+}
+
+#image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100PX;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    form{
+           display: flex;
+           justify-content: center;
+           justify-items: center;
+           justify-self: center;
+           align-items: center;
+           width: 100%;
+           position: relative;
+top: 100PX;
+           input{
+               width: 95%;
+           }
+           button{
+               display: flex;
+           justify-content: center;
+           justify-items: center;
+           justify-self: center;
+               position: relative;
+               width: 260PX;
+           }
+   }
+   .container{
+       #image-container{
+           display:none;
+           img{
+               display: none;
+           }
+       
+   }
+   }
+      
+   }
